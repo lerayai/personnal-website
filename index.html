@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Identity by HTML5 UP</title>
+		<title>LERAY Adrien</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -15,9 +15,9 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Jane Doe</h1>
-							<p>Senior Psychonautics Engineer</p>
+							<span class="avatar"><img src="images/avatar.jpg" alt="main logo" /></span>
+							<h1>Adrien LERAY</h1>
+							<p>FULL-STACK WEB DEVELOPER</p>
 						</header>
 						<!--
 						<hr />
@@ -58,9 +58,10 @@
 						-->
 						<footer>
 							<ul class="icons">
-								<li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li>
-								<li><a href="#" class="fa-facebook">Facebook</a></li>
+								<li class="blue"><a href="https://www.linkedin.com/in/adrien-leray/" class="fa-linkedin">Linkedin</a></li>
+								<li class="teal"><a href="https://twitter.com/AdrienLry" class="fa-twitter">Twitter</a></li>
+								<li class="dark"><a href="https://github.com/adrien-leray" class="fa-github-alt">Github</a></li>
+								<li class="orange"><a href="https://gitlab.com/adrien-leray" class="fa-gitlab">Gitlab</a></li>
 							</ul>
 						</footer>
 					</section>
@@ -68,7 +69,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
-							<li>&copy; Jane Doe</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; LERAY Adrien - <span id="date"></span></li>
 						</ul>
 					</footer>
 
@@ -80,6 +81,8 @@
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
+
+				document.getElementById("date").innerText = new Date().getFullYear().toString();
 			</script>
 
 	</body>

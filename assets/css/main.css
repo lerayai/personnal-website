@@ -112,10 +112,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/w5.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/w5.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/w5.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/w5.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -754,8 +754,20 @@
 					text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 				}
 
-				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+				ul.icons li.blue a:hover:before {
+					text-shadow: 1.25px 0px 0px #0077B5, -1.25px 0px 0px #0077B5, 0px 1.25px 0px #0077B5, 0px -1.25px 0px #0077B5;
+				}
+
+				ul.icons li.teal a:hover:before {
+					text-shadow: 1.25px 0px 0px #1da1f2, -1.25px 0px 0px #1da1f2, 0px 1.25px 0px #1da1f2, 0px -1.25px 0px #1da1f2;
+				}
+
+				ul.icons li.dark a:hover:before {
+					text-shadow: 1.25px 0px 0px #24292e, -1.25px 0px 0px #24292e, 0px 1.25px 0px #24292e, 0px -1.25px 0px #24292e;
+				}
+
+				ul.icons li.orange a:hover:before {
+					text-shadow: 1.25px 0px 0px #e65328, -1.25px 0px 0px #e65328, 0px 1.25px 0px #e65328, 0px -1.25px 0px #e65328;
 				}
 
 				ul.icons li a:before {
@@ -770,8 +782,20 @@
 					text-indent: 0;
 				}
 
-				ul.icons li a:hover {
-					border-color: #ff7496;
+				ul.icons li.blue a:hover {
+					border-color: #0077B5;
+				}
+
+				ul.icons li.teal a:hover {
+					border-color: #1da1f2;
+				}
+
+				ul.icons li.dark a:hover {
+					border-color: #24292e;
+				}
+
+				ul.icons li.orange a:hover {
+					border-color: #e65328;
 				}
 
 		@media screen and (max-width: 480px) {
